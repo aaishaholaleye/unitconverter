@@ -11,7 +11,7 @@ body {
 .container{
     height: 550px;
     width: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     margin: 20px;
     background-color: #f4f4f4;
