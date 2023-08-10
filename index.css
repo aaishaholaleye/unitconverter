@@ -1,0 +1,120 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 550px;
+    width: 400px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.top-container{
+    background-color: #6943FF;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+input{
+    background-color: #6943FF;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 90px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.convert-btn{
+    margin-top: 20px ;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px 8px 12px ;
+    font-size: 20px;
+}
+
+.projectbody{
+    text-align: center;
+}
+
+.length{
+    background-color: white;
+    padding: 0px 0px 5px 0px;
+    height: 80px;
+    width: 380px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.length-title{
+    padding-top: 15px;
+}
+
+.lengthcalc{
+    margin: 0;
+}
+
+
+.volume{
+    background-color: white;
+    padding: 0px 0px 5px 0px;
+    height: 80px;
+    width: 380px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.volume-title{
+    padding-top: 15px;
+}
+
+.volumecalc{
+    margin: 0;
+}
+
+.mass{
+    background-color: white;
+    height: 80px;
+    width: 380px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.mass-title{
+    padding-top: 15px;
+}
+
+.masscalc{
+    margin: 0;
+}
+
+h6{
+    font-size: 12px;
+}
