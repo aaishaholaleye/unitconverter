@@ -32,3 +32,5 @@ function display(){
 
 window.display = display;
 
+display()
+
