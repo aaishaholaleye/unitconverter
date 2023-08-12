@@ -12,7 +12,7 @@ let volumecalc = document.getElementById("volumecalc")
 let masscalc = document.getElementById("masscalc")
 
 
-function display(){
+convertbtn.addEventListener("click", function(){
     basicnum = parseInt(basicnum.value)
 
     let metertofeet = basicnum * 3.281
@@ -28,9 +28,5 @@ function display(){
     masscalc.innerHTML = `${basicnum} kilos = ${kilostopounds.toFixed(3)} pounds | ${basicnum} pounds = ${poundstokilos.toFixed(3)} kilos `
     
 
-}
-
-window.display = display;
-
-display()
+})
 
